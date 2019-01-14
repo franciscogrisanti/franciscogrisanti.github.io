@@ -1,0 +1,525 @@
+/* ========================================================================
+Imported Stylesheets
+======================================================================== */   
+@import url("../_css/owl-carousel.css");
+@import url("https://ssl.uh.edu/css/refresh/owl.carousel.css");
+
+/* ========================================================================
+   Headers, Text, Buttons
+   ======================================================================== */    
+   body > main { font: 1.25rem "League Gothic"; }
+   .white { color: #fff; }
+   .white a { color: #FFF9D9; }
+   #page:first-child { margin-top: 0 !important; }
+   
+   .cover23 {
+    margin: 0 -100% 0px -100%;
+    padding: 30px 100% 30px 100%;
+    position: relative;
+   }
+
+
+@media only screen and (max-width: 767px) {
+    
+    .cover23 {
+        position: center;
+       }
+    #cover23 h1{
+        font-size: 1.5em;
+    }
+
+    img.foto {
+        shape-outside: -moz-repeating-linear-gradient();
+        size: 100px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+}
+/* ========================================================================
+   page
+   ======================================================================== */   
+ 
+
+
+
+/* ========================================================================
+   GEORGE BLOCK
+   ======================================================================== */   
+
+.education{
+    margin-top: 20px;
+    font-size: 1.0em;
+    font-family: 'milo';
+    font-style: unset;    
+    position:center;
+    
+}
+.education h1{
+    margin-top: 20px;
+    font-size: 2.0em;
+    font-family: 'League Gothic';  
+    position:center;
+    text-transform: uppercase;
+    
+}
+.borderRed{
+    font-size: 4.5em;
+    font-family: "League Gothic",sans-serif;
+    position:right;
+    position:center;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .education{
+        margin-top: 20px;
+        font-size: 1.0em;
+        font-family: 'milo';
+        font-style: unset;    
+        position:center;
+        
+    }
+    .education h1{
+        margin-top: 20px;
+        font-size: 4.0em;
+        font-family: 'League Gothic';  
+        position:center;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    .borderRed{
+        font-size: 2.5em;
+        font-family: "League Gothic",sans-serif;
+        position:right;
+        position:center;
+    }
+}
+
+/* Layout */
+section#page.row { 
+    padding: 0 45px; 
+}
+div.nav-secondary.span4 { 
+    display: none; 
+    width: 100%; 
+    clear: both; 
+    font-size: 1em; 
+    margin: 0; 
+    padding: 0;
+}
+div.container.nohead {
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    padding-bottom: 0;}
+
+article#main.span12 { 
+    width: 100%; 
+    clear: both; 
+    font-size: 1em; 
+    margin: 0; 
+    padding: 0; 
+}
+
+div#announcement {
+    background: none repeat scroll 0% 0% #010101;
+    display: block;
+    margin: 0 -100%;
+    padding: 0px 100% 30px 100%;
+    position: relative;
+}
+/* ========================================================================
+   Features Slideshow
+   ======================================================================== */        
+   #features div.container {
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: bisque
+}
+
+.features  {
+    background-color: bisque
+}
+#features h1 {
+    font: 4rem 'League Gothic', sans-serif;
+}
+
+#features div.container div.col-xs-12 
+{ padding: 0px; 
+}
+
+#features h3 { 
+    line-height: 1.75rem;
+    margin: 1rem 0 .25rem;
+}
+
+#features p { 
+    font-size: 1.125rem; 
+    line-height: calc(1.5em - 3px);
+    margin: 0;
+}
+
+.owl-carousel {
+    width: 1000px;
+    margin-top: 5px;
+}
+
+.owl-carousel.owl-loaded li {
+    float: none;
+    padding-bottom: 2.25rem;
+    margin-bottom: 0;
+    position: relative;
+    width: auto;
+}
+
+.owl-carousel li:nth-child(n+2) { display: none; }
+.owl-carousel.owl-loaded li:nth-child(n+2) { display: block; }
+
+.owl-carousel .owl-nav {
+    color: #888B8D;
+    font: bold 3.5rem 'Milo', sans-serif; /* 56px */
+    line-height: 1;
+    position: absolute;
+    top: calc(50% - 1em);
+    width: 100%;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    opacity: .5;
+    position: absolute;
+    text-align: center;
+    transition: opacity .25s ease;
+    width: 2.5rem;
+}
+
+.owl-carousel .owl-nav .owl-prev { left: -1.25rem; }
+.owl-carousel .owl-nav .owl-next { right: -1.25rem; }
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover { opacity: 1; }
+
+.owl-carousel .owl-nav .owl-prev.disabled,
+.owl-carousel .owl-nav .owl-next.disabled,
+.owl-carousel .owl-nav .owl-prev.disabled:hover,
+.owl-carousel .owl-nav .owl-next.disabled:hover {
+    cursor: default;
+    opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .owl-carousel li:nth-child(n+2) { display: block; }
+    .owl-carousel li:nth-child(n+3) { display: none; }
+    .owl-carousel.owl-loaded li:nth-child(n+3) { display: block; }
+}
+
+@media screen and (min-width: 992px) {
+    .owl-carousel li:nth-child(n+2) { display: block; }
+    .owl-carousel li:nth-child(n+4) { display: none; }
+    .owl-carousel.owl-loaded li:nth-child(n+4) { display: block; }
+}
+
+
+ /* ========================================================================
+   RESEARCH PROJECT
+   ======================================================================== */   
+   #sugar-land div.container { margin: 0 auto; padding-top: 0px; padding-bottom: 0px; }
+    
+   .sugar-land-box {
+       padding: 5px;
+       float: center;
+       display: inline-block;
+       background: #474745;
+       color: #fff;
+       margin-top: 35px;
+       border-radius: 0px 0px 10px 10px;
+       font-family: 'Milo';
+       text-align: center;
+   }
+   
+   .sugar-land-box a { 
+       color: #474745; 
+       text-decoration:none; 
+       text-align: center;
+    }
+
+   /* text section */
+   
+   #sugar-land div.container { 
+       margin-top: -40px; 
+       padding-top: 20px; 
+       padding-bottom: 45px; }
+   #sugar-land div.row div.col-md-9 { 
+       width: 71.5%; }
+   
+   #sugar-land h1 {
+       margin: 30px 0px 15px 0px;
+       font: 3.375rem 'League Gothic', sans-serif;
+       text-transform: uppercase;
+       text-align: center;
+   }   
+   
+   #sugar-land h1 a {text-decoration:none!important;}
+   
+   .lead { 
+       font-family: 'Milo'; 
+       font-size: 1.3em; }
+   
+   
+/* Research blocks */
+
+/* Computational Tracking */
+.background-image {
+    background-image: url('../_images/brain2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #050505 !important; 
+    display: block;
+    margin: 0 -100% 0px -100%;
+    padding: 30px 100% 30px 100%;
+    position: relative;
+}
+.background-image h1 { 
+    font-weight: 600;
+    font-size: 2.7em;
+    //line-height: 1.4em;
+    //padding: 20px 0;
+    width: 100%;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font: 3.5rem 'League Gothic';
+    
+}
+
+.background-image h2 {
+    font-weight: 800;
+    width: 80%;
+    margin-top: 10px;
+    text-shadow: 0px 0px 15p, 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    font: 1.8rem 'League Gothic', sans-serif;
+}
+
+/* Signal Analysis */
+.bannerContent2 {
+    background-image: url('../_images/signal.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-color: #050505 !important; 
+    display: block;
+    margin: 0 -100% 0px -100%;
+    padding: 30px 100% 30px 100%;
+    position: relative;
+}
+.bannerContent2 h1 { 
+    font-weight: 600;
+    font-size: 2.7em;
+    //line-height: 1.4em;
+    //padding: 20px 0;
+    width: 100%;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font: 3.5rem 'League Gothic';
+}
+.bannerContent2 h1 span.underline { border-bottom: 1px dotted #ccc; padding: 10px 0; } 
+
+
+.bannerContent2 h2 {
+    font-weight: 600;
+    width: 80%;
+    margin-top: 10px;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Functional Brain Mapping */
+.bannerContent3 {
+    background-image: url('../_images/brain_1-01.jpeg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #050505 !important; 
+    display: block;
+    margin: 0 -100% 0px -100%;
+    padding: 30px 100% 30px 100%;
+    position: relative;
+}
+.bannerContent3 h1 { 
+    font-weight: 600;
+    font-size: 2.7em;
+    //line-height: 1.4em;
+    //padding: 20px 0;
+    width: 100%;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font: 3.5rem 'League Gothic';
+}
+.bannerContent3 h1 span.underline { border-bottom: 1px dotted #ccc; padding: 10px 0; } 
+
+
+.bannerContent3 h2 {
+    font-weight: 600;
+    width: 80%;
+    margin-top: 10px;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font: 3.5rem 'League Gothic';
+}
+
+/* Skin Cancer Detection */
+.bannerContent4 {
+    background-image: url('../_images/skin2.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #050505 !important; 
+    display: block;
+    margin: 0 -100% 0px -100%;
+    padding: 30px 100% 30px 100%;
+    position: relative;
+}
+.bannerContent4 h1 { 
+    font-weight: 600;
+    font-size: 2.7em;
+    //line-height: 1.4em;
+    //padding: 20px 0;
+    width: 100%;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font: 3.5rem 'League Gothic';
+}
+.bannerContent4 h1 span.underline { border-bottom: 1px dotted #ccc; padding: 10px 0; } 
+
+
+.bannerContent4 h2 {
+    font-weight: 600;
+    width: 80%;
+    margin-top: 10px;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Difussion Tensor Imaging */
+.bannerContent5 {
+    background-image: url('../_images/tensor.png');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-color: #050505 !important; 
+    display: block;
+    margin: 0 -100% 0px -100%;
+    padding: 30px 100% 30px 100%;
+    position: relative;
+}
+.bannerContent5 h1 { 
+    font-weight: 600;
+    font-size: 2.7em;
+    //line-height: 1.4em;
+    //padding: 20px 0;
+    width: 100%;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font: 3.5rem 'League Gothic';
+}
+.bannerContent5 h1 span.underline { border-bottom: 1px dotted #ccc; padding: 10px 0; } 
+
+
+.bannerContent5 h2 {
+    font-weight: 600;
+    width: 80%;
+    margin-top: 10px;
+    text-shadow: 0px 0px 15px rgb(216, 5, 5), 0px 0px 5px #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+ /* ========================================================================
+   SPONSORS TAB
+   ======================================================================== */   
+
+   #sponsors {
+    background-color: #474745 !important;
+    color: #050505;
+   }
+   
+   #sponsors h1 { 
+       color: #fff;
+       text-align: center;
+       font-size: 1.5em;  
+    }
+
+#sponsors2 img{
+    position: left;
+    display: inline-table;
+}
+
+#sponsors2 p{
+    text-align: center;
+}
+
+/* Bottom Blocks */
+div.row.blocks { 
+    background: none repeat scroll 0% 0% rgb(2, 2, 2);
+    display: block;
+    margin: 0 -100%;
+    padding: 40px 100% 20px;
+    position: relative;
+}
+
+div.row.blocks div.span6.first { 
+    padding: 0px 15px 0px 0px;  }
+div.row.blocks div.span6.last { 
+    padding: 0px 0px 0px 15px; }
+div.row.blocks div.span6 { 
+    text-align: center; padding: 10px 7px; width: 33.3%; }
+div.row.blocks div.span6 h3 { 
+    font-size: 1.2em; 
+    font-weight: 400; 
+    border-bottom: rgb(3, 3, 3) dotted 1px; 
+    padding-bottom: 10px; }
+div.row.blocks div.span6 div.circleImage { 
+    max-width: 250px; 
+    max-height: 250px; 
+    margin: 0 auto; 
+    display: block; }
+div.row.blocks div.span6 img {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .bannerContent h1 { font-size: 2em; }
+    .bannerContent h2 { font-size: 1.4em; width: 100%; }
+    .bannerContent h1 { font-size: 2em; }
+    #sponsors h1 { font-size: 1em;}
+    #sugar-land h1 {
+        text-align: center;
+    }   
+
+    
+}
