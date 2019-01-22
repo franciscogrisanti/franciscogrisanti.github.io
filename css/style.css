@@ -45,10 +45,17 @@
         position:center;
     }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 420px) {
+
+    .page-header h1{
+        font-size: 1.0em;
+        font-family: "League Gothic",sans-serif;
+        position:right;
+        position:center;
+    }
 
     .borderRed{
-        font-size: 2.5em;
+        font-size: 3.0em;
         font-family: "League Gothic",sans-serif;
         position:right;
         position:center;
